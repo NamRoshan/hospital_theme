@@ -1,0 +1,387 @@
+body{
+}
+/*.whitebackground{
+    background: white;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.whitebackground-small{
+    background: white;
+    border: 3px solid rgba(8, 49, 87, 0.96);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}*/
+.navbar{
+	border: none;
+}
+.navbarmain{
+	background: rgb(40, 75, 106);
+}
+.navbarmain a{
+	color: white;
+}
+.navbarsub{
+    background: rgba(8, 49, 87, 0.96);
+}
+.navbar-header{
+	width: 100%;
+}
+.navbar .navbar-brand{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+.navbar .navbar-header .navbar-brand:hover{
+	color:white;
+}
+.navbar .nav li a:hover{
+    color:white; 
+}
+.sub .nav li a:hover{
+	background:rgb(58, 126, 188); 
+}
+.sub .nav li a:active{
+	background:rgb(58, 126, 188); 
+}
+.navbar .nav .active a{
+	background:rgb(80, 115, 147);
+	color: white;
+}
+.navbar .nav .active a:hover{
+	background:rgb(58, 126, 188);
+	color: white;
+}
+.navbar{
+	color: white;
+}
+.navbar-nav {
+	margin: 0;
+}
+.navbar-collapse{
+	padding-left: 0px;
+}
+.navbarmain .nav {
+    color: white;
+}
+
+.navbarmain .navmargin i{/*this is main concept for phone margin fix center in phone and left margin in nav bar*/
+	width: 30px;
+	height: 30px;
+	margin-top: 12px;
+}
+/* ************************for fix type image ************************ */
+
+/* ************************End ***************************/
+/*  carosel image bellow navbar css              */
+.nav li a img{
+	text-align: center;
+}
+.nav li a {
+	color: black;
+}
+.icons{
+	background:rgba(36, 161, 36, 0.63);
+}
+.icons li a:hover{
+    background: green;	
+    cursor:default;
+}
+
+/*  End carosel image bellow navbar css              */
+/*  Heart background******************* */
+.heartbackground{
+	background: url(image/heart.png);
+}
+.heartbackground h2{
+    font-family: "Ubuntu", Arial, Tahoma, sans-serif;
+    font-weight: 300;
+    color:  rgba(8, 49, 87, 0.96);
+}
+/* end this backgrond*/
+/* offer list*/
+
+.offerlist li{
+	list-style: none;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 20px;
+	color: rgba(8, 49, 87, 0.96);
+}
+.offerlist h4{
+	color: rgba(8, 49, 87, 0.96);
+}
+/* end offer list*/
+/*  thumble image for spicilities doctor css              */
+  hr{
+   border: 3px solid brown;
+    	
+ }
+   .short-hr hr{
+        display:none;
+    }
+ .shorthr-short hr{
+ 	border:1px solid green;
+ 	margin-left: 530px;
+ 	margin-right: 520px;
+ 	margin-top: 10px;
+ }
+.responsive_img img{
+	width: 100%;
+}
+.blocks_multiple a{
+	display: block;
+	text-align: center;
+ 	color: black;
+}
+.blocks_multiple .btn{
+	background: green;
+	color: white;
+	text-shadow: none;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+}
+
+/*  End thumble image for spicilities doctor css              */
+/*************  social icons**********************/
+.socialicon{
+
+}
+.socialicons .blocks {
+	border: 2px solid black;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+
+
+}
+
+/*.socialicon a:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .socialicon a {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */*/
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+/************ End social icons ******************/
+/*  List group         */
+.list-group h3{
+	text-align: center;
+}
+.list-group a{
+	text-align: center;
+}
+/* *************************** doctor view ******************************* */
+ .field li{
+ 	list-style: circle;
+ }
+ .text-bold{
+ 	font-weight: bold;
+ }
+ .silver-color{
+    color:#868080;
+ }
+/* ************************ form ************************ */
+.msgform{
+	margin-top: 80px;
+}
+.msgform .btn{
+	background: green;
+	color: white;
+}
+/**********************End form *************************** */
+/*for margin on facilitates */
+.margin-gaps{
+	margin-bottom: 30px;
+	position: relative;
+}
+.margin-gaps-top{
+	margin-top: 40px;
+}
+.margin-gaps-top-small{
+	margin-top: 8px;
+}
+ a:hover{
+	text-decoration: none;
+}
+.innertext-design {
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    color: #fff;
+}
+.innertext-design-mainpage{
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    color: #fff;
+}
+.innertext-design-mainpage h3{
+   font-size: 20px;
+   text-align: center;
+}
+
+.innertext-design-mainpage-anchor{
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    color: #fff;
+    padding: 11px;
+    text-align: center;
+}
+.innertext-design-mainpage-anchor a{
+   font-size: 20px;
+   color: white;
+   
+}
+.large-block{
+	position: relative;
+}
+/********************************Our team*******************************/
+.grid-views img{
+	margin-bottom: 10px;
+    border-radius: 10px;
+}
+.grid-views-style {
+    background:rgba(223, 220, 215, 0.48);
+    padding-left: 15px;
+    padding-top: 26px;
+    padding-right: 16px;
+    padding-bottom: 76px;
+    margin-bottom: 23px;
+    border:1px solid #c8c3c3;
+}
+.margin-buttom{
+	margin-bottom: 21px;
+}
+.grid-icon .head-icon{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+.sub-head-icon{
+	font-size: 14px;
+	text-align: center;
+}
+.sub-sub-head-icon{
+	font-size: 12px;
+	text-align: center;
+}
+/*********************************End our team*****************************/
+/*.design-top h3{
+    position: absolute;
+	background: rgba(26, 27, 26, 0.39);
+	color: white;
+	margin-top: 264px;
+	text-align: center;
+	padding: 0px 240px;
+
+}
+.design-top img{
+	position: absolute;
+}
+*//* ***********end *************/
+/* decoration in image inner*/
+
+/* end */
+/* ************************** end doctor view ***************************** */
+/*  end event list group        */
+/*for doctor icon*/
+/*end*/
+/*footer*/
+footer{
+	background: rgba(8, 49, 87, 0.96);
+}
+/*.footercolor h3 a{
+	color:black;
+}
+.footercolor .links strong a{
+	color:black;
+}
+.footercolor p{
+	color: black;
+}
+.footercolor h4{
+	color: black;
+}*/
+.footer-about .social-links a{
+	background: #8d8d56;
+}
+
+.social-links img{
+	width: 20px;
+	height:20px;
+}
+.footer-about .social-links a:hover{
+	background:#b4f3d1;
+}
+.footer-navigation h4 {
+    font-family: 'Oswald', sans-serif;
+}
+.footer-navigation h4 a{
+	color: white;
+	font-weight: bold;
+}
+.footer-contacts p a{
+	font-weight: bold;
+	font-size: 16px;
+}
+/*end of footer*/
+
+
+/*Targeting Mobile Devices -- START */
+
+@media(max-width: 767px){
+	.nav-tabs.nav-justified.highlighted> li{
+		float: left;
+		width: 50%;
+		border-left: 1px solid #FFF;
+		border-right: 1px solid #FFF;
+		border-top: 2px solid #FFF;
+	}
+	.highlighted li img{
+		width: 26%;
+	}
+	.navbarmain .container a{
+		display: block;
+	    width: 100%;
+	    text-align: center;
+	}
+	.navbarmain .navmargin i{/*this is main concept for phone margin fix center in phone and left margin in nav bar*/
+	    margin-top: 0px;
+   }
+/* ************************for fix type image ************************ */
+/*Footer align in same line like phone number*/
+   .footercolor .footer-remake{
+        padding-left: 0;
+    }
+/*End*/
+    .short-hr hr{
+    	display: block;
+        border: 1px solid brown;
+    }
+    }
+
+/*Targeting Mobile Devices -- END*/
